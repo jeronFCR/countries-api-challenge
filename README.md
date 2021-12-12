@@ -11,7 +11,6 @@ Due the easy complexity of the app, Flux architecture pattern has been chosen. S
     .
     ├── components             # Dumb components
     ├── context                # Context to store states and axios functions, so we can use them easily across the app
-    ├── cypress                # e2e tests
     ├── interfaces             # interfaces
     ├── pages                  # pages (Practically all logic goes here)
     ├── services               # Axios http requests
@@ -27,7 +26,6 @@ Due the easy complexity of the app, Flux architecture pattern has been chosen. S
     - Font Awesome
     - Uuid
     - Font Awesome
-    - Cypress
 
 ## Start here:
 
