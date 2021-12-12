@@ -3,6 +3,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This App use the [REST Countries V2 API](https://restcountries.com/#api-endpoints-v3.1) to pull countries and display them.
 
+Check [Live Demo](https://countries-api-challenge-tau.vercel.app/) to take a look!
+
 ## Architecture
 Due the easy complexity of the app, Flux architecture pattern has been chosen. So we can add new services/actions and make the app scalable without add Redux/Redux Saga.
 
