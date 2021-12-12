@@ -1,3 +1,4 @@
+import { AxiosError, AxiosResponse } from "axios";
 import {
   GET_COUNTRIES_REQUEST,
   GET_COUNTRIES_SUCCESS,
@@ -12,7 +13,7 @@ export const initialState = {
   statusText: "",
 };
 
-export const reducer = (state = initialState, action) => {
+export const reducer = (state = initialState, action: any) => {
   const { type, response, error } = action;
   switch (type) {
     case GET_COUNTRIES_REQUEST:
